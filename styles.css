@@ -1,0 +1,132 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color:azure;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline;
+    margin-left: 15%;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10%;
+}
+
+/* iceland.html*/
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    margin: 3%
+}
+
+.paragraph-1{
+    font-size: larger;
+}
+
+.paragraph-2{
+    font-size: x-large;
+}
+
+.iceland{
+    width: 100%;
+}
+
+
+/* signup.html*/
+
+form,
+fieldset{
+    max-width: 750px;
+    margin: 20px auto;
+}
+
+.image-3{
+    margin-top: 10%;
+
+}
+
+.iceland-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+legend{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.row{
+    margin: 10px 0;
+}
+
+.column{
+    width: 100%;
+}
+
+
+
+/* itinerary.html*/
+
+.itinerary-list li{
+    list-style: none;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+
+/* iceland-views.html*/
+
+.views-container{
+    width: 50%;
+}
+
+.views-pics{
+    height: 333px;
+    width: 333px;
+    margin: 4rem;
+    border-radius: 10%;
+
+
+}
+
+.views-row{
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    margin-left: 33%;
+}
+
+.views-column{
+    width: 100%;
+}
+
+
+input[type=checkbox]{
+    vertical-align: middle;
+}
+
+button{
+    margin: 0 50% ;
+}
